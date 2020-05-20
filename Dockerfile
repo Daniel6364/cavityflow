@@ -6,7 +6,7 @@ LABEL maintainer "Shiho ASA"
 
 # Configure environment
 ENV CONDA_DIR=/opt/conda \
-    NB_USER=jovyan
+    NB_USER=daniel
     
 # Install Jupyter Notebook and Hub
 RUN conda install --quiet --yes \
